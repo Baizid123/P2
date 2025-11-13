@@ -292,5 +292,3 @@ def page_recommendation_engine(hybrid_recommender, df):
             recommendations = hybrid_recommender.get_hybrid_recommendations(
                 movie_title, query, n_recs=10
             )
-
-!pip install streamlit
